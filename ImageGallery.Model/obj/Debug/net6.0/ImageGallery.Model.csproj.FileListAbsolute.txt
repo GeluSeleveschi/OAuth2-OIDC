@@ -1,0 +1,12 @@
+D:\OAuth2-OIDC\ImageGallery.Model\bin\Debug\net6.0\ImageGallery.Model.deps.json
+D:\OAuth2-OIDC\ImageGallery.Model\bin\Debug\net6.0\ImageGallery.Model.dll
+D:\OAuth2-OIDC\ImageGallery.Model\bin\Debug\net6.0\ImageGallery.Model.pdb
+D:\OAuth2-OIDC\ImageGallery.Model\obj\Debug\net6.0\ImageGallery.Model.csproj.AssemblyReference.cache
+D:\OAuth2-OIDC\ImageGallery.Model\obj\Debug\net6.0\ImageGallery.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\OAuth2-OIDC\ImageGallery.Model\obj\Debug\net6.0\ImageGallery.Model.AssemblyInfoInputs.cache
+D:\OAuth2-OIDC\ImageGallery.Model\obj\Debug\net6.0\ImageGallery.Model.AssemblyInfo.cs
+D:\OAuth2-OIDC\ImageGallery.Model\obj\Debug\net6.0\ImageGallery.Model.csproj.CoreCompileInputs.cache
+D:\OAuth2-OIDC\ImageGallery.Model\obj\Debug\net6.0\ImageGallery.Model.dll
+D:\OAuth2-OIDC\ImageGallery.Model\obj\Debug\net6.0\refint\ImageGallery.Model.dll
+D:\OAuth2-OIDC\ImageGallery.Model\obj\Debug\net6.0\ImageGallery.Model.pdb
+D:\OAuth2-OIDC\ImageGallery.Model\obj\Debug\net6.0\ref\ImageGallery.Model.dll

@@ -47,3 +47,4 @@ D:\OAuth2-OIDC\GS.IDP\obj\Debug\net6.0\ref\GS.IDP.dll
 D:\OAuth2-OIDC\GS.IDP\bin\Debug\net6.0\GS.IDP.staticwebassets.runtime.json
 D:\OAuth2-OIDC\GS.IDP\obj\Debug\net6.0\GS.IDP.RazorAssemblyInfo.cache
 D:\OAuth2-OIDC\GS.IDP\obj\Debug\net6.0\GS.IDP.RazorAssemblyInfo.cs
+D:\OAuth2-OIDC\GS.IDP\bin\Debug\net6.0\keys\is-signing-key-351B95513C6B4AA0A8AD35D0D8DAB113.json
