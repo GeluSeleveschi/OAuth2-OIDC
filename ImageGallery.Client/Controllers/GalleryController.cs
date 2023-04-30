@@ -31,7 +31,6 @@ namespace ImageGallery.Client.Controllers
             var accessToken = await HttpContext.GetTokenAsync("access_token");
             Console.WriteLine($"Access Token: {accessToken}");
 
-            //var isTokenValid = IsTokenValid(accessToken, "","", )
             var httpClient = _httpClientFactory.CreateClient("APIClient");
 
             var request = new HttpRequestMessage(
