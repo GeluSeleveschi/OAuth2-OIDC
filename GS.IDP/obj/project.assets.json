@@ -52,6 +52,26 @@
           }
         }
       },
+      "IdentityModel.AspNetCore/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "6.0.0",
+          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/IdentityModel.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/IdentityModel.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -651,6 +671,24 @@
         "lib/netstandard2.0/IdentityModel.dll",
         "lib/netstandard2.0/IdentityModel.pdb",
         "lib/netstandard2.0/IdentityModel.xml"
+      ]
+    },
+    "IdentityModel.AspNetCore/4.3.0": {
+      "sha512": "WWb9QJXoDM9Z3ThDYtyyNfhUFvBj+YMcF9rl5CA23aDwN/VqNCUo1eHirjh/YYEhBoMiB5USmeWbimfbxrBKUQ==",
+      "type": "package",
+      "path": "identitymodel.aspnetcore/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.jpg",
+        "identitymodel.aspnetcore.4.3.0.nupkg.sha512",
+        "identitymodel.aspnetcore.nuspec",
+        "lib/net5.0/IdentityModel.AspNetCore.dll",
+        "lib/net5.0/IdentityModel.AspNetCore.xml",
+        "lib/net6.0/IdentityModel.AspNetCore.dll",
+        "lib/net6.0/IdentityModel.AspNetCore.xml",
+        "lib/netcoreapp3.1/IdentityModel.AspNetCore.dll",
+        "lib/netcoreapp3.1/IdentityModel.AspNetCore.xml"
       ]
     },
     "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.0": {
@@ -1373,6 +1411,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Duende.IdentityServer >= 6.2.3",
+      "IdentityModel.AspNetCore >= 4.3.0",
       "Serilog.AspNetCore >= 6.0.0"
     ]
   },
@@ -1423,6 +1462,10 @@
           "Duende.IdentityServer": {
             "target": "Package",
             "version": "[6.2.3, )"
+          },
+          "IdentityModel.AspNetCore": {
+            "target": "Package",
+            "version": "[4.3.0, )"
           },
           "Serilog.AspNetCore": {
             "target": "Package",

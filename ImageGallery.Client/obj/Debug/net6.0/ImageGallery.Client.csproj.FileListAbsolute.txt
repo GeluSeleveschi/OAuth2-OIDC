@@ -6,6 +6,8 @@ D:\OAuth2-OIDC\ImageGallery.Client\bin\Debug\net6.0\ImageGallery.Client.deps.jso
 D:\OAuth2-OIDC\ImageGallery.Client\bin\Debug\net6.0\ImageGallery.Client.runtimeconfig.json
 D:\OAuth2-OIDC\ImageGallery.Client\bin\Debug\net6.0\ImageGallery.Client.dll
 D:\OAuth2-OIDC\ImageGallery.Client\bin\Debug\net6.0\ImageGallery.Client.pdb
+D:\OAuth2-OIDC\ImageGallery.Client\bin\Debug\net6.0\IdentityModel.dll
+D:\OAuth2-OIDC\ImageGallery.Client\bin\Debug\net6.0\IdentityModel.AspNetCore.dll
 D:\OAuth2-OIDC\ImageGallery.Client\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 D:\OAuth2-OIDC\ImageGallery.Client\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\OAuth2-OIDC\ImageGallery.Client\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "zGmGgV/+EXVifjh91DckndnNOFgrHrZKpxIONOL1nwk8IWNNG0A73VXY98tUr5prHhFZJMA0GJhlAJmaXqJ5LQ==",
+  "dgSpecHash": "9asYsTSL1jpK1xcheNGZYBhYNaASu5Vvpkcq6zY63MGJcCGzzm6VZGgKeHY08wcTJ6P3dDtOR0ETWW7veo+wpQ==",
   "success": true,
   "projectFilePath": "D:\\OAuth2-OIDC\\ImageGallery.Client\\ImageGallery.Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\identitymodel.aspnetcore\\4.3.0\\identitymodel.aspnetcore.4.3.0.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\6.0.16\\microsoft.aspnetcore.authentication.openidconnect.6.0.16.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.10.0\\microsoft.identitymodel.jsonwebtokens.6.10.0.nupkg.sha512",

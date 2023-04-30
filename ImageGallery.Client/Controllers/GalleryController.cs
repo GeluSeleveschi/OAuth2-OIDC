@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using System.Text.Json;
 
@@ -26,7 +28,10 @@ namespace ImageGallery.Client.Controllers
         public async Task<IActionResult> Index()
         {
             await LogIdentityInformation();
+            var accessToken = await HttpContext.GetTokenAsync("access_token");
+            Console.WriteLine($"Access Token: {accessToken}");
 
+            //var isTokenValid = IsTokenValid(accessToken, "","", )
             var httpClient = _httpClientFactory.CreateClient("APIClient");
 
             var request = new HttpRequestMessage(
@@ -189,6 +194,8 @@ namespace ImageGallery.Client.Controllers
         {
             var identityToken = await HttpContext.GetTokenAsync(OpenIdConnectParameterNames.IdToken);
 
+            var accessToken = await HttpContext.GetTokenAsync(OpenIdConnectParameterNames.AccessToken);
+
             var userClaimsStringBuilder = new StringBuilder();
             foreach (var claim in User.Claims)
             {
@@ -196,6 +203,41 @@ namespace ImageGallery.Client.Controllers
             }
 
             _logger.LogInformation("Identity token & user claims: " + $"\n{identityToken} \n{userClaimsStringBuilder}");
+
+            _logger.LogInformation("Access token: " + $"\n{accessToken}");
+        }
+
+        public static bool IsTokenValid(string token, string audience, string issuer, string signingKey)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var validationParameters = new TokenValidationParameters
+            {
+                ValidateAudience = true,
+                ValidAudience = audience,
+                ValidateIssuer = true,
+                ValidIssuer = issuer,
+                ValidateIssuerSigningKey = true,
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(signingKey)),
+            };
+
+            try
+            {
+                // Decode and validate the token
+                var principal = tokenHandler.ValidateToken(token, validationParameters, out var securityToken);
+
+                // Make sure the token has a valid JWT ID
+                if (securityToken is JwtSecurityToken jwtSecurityToken &&
+                    !string.IsNullOrEmpty(jwtSecurityToken.Id))
+                {
+                    return true;
+                }
+            }
+            catch (SecurityTokenException)
+            {
+                // Token validation failed
+            }
+
+            return false;
         }
     }
 }

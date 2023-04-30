@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "3U2fIKtRJzIQ8X44bW+maGVjRgNWg+iRs/ih40qNknYXJn+KQe0w9FueWwiUH5ZFF4PBzv+Bd5iL3YOmG5R4aA==",
+  "dgSpecHash": "EqSSzkE4AmVh70ClWESaEKkUzysfqwk608365Z3cMAT1IOlWUiXsxJ/iuwjBfW8M2CaqsVwC/hz3SYJDE/W45g==",
   "success": true,
   "projectFilePath": "D:\\OAuth2-OIDC\\GS.IDP\\GS.IDP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\duende.identityserver\\6.2.3\\duende.identityserver.6.2.3.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\duende.identityserver.storage\\6.2.3\\duende.identityserver.storage.6.2.3.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\identitymodel.aspnetcore\\4.3.0\\identitymodel.aspnetcore.4.3.0.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\6.0.0\\microsoft.aspnetcore.authentication.openidconnect.6.0.0.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\6.0.0\\microsoft.aspnetcore.dataprotection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
