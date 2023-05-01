@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "D:\\OAuth2-OIDC\\ImageGallery.API\\wwwroot\\Images\\0d18a224-8e7a-4cea-9b57-c764b2eec995.jpg",
+      "PackagePath": "staticwebassets\\Images\\0d18a224-8e7a-4cea-9b57-c764b2eec995.jpg"
+    },
+    {
       "Id": "D:\\OAuth2-OIDC\\ImageGallery.API\\wwwroot\\Images\\3fbe2aea-2257-44f2-b3b1-3d8bacade89c.jpg",
       "PackagePath": "staticwebassets\\Images\\3fbe2aea-2257-44f2-b3b1-3d8bacade89c.jpg"
     },

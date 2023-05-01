@@ -1,0 +1,12 @@
+D:\OAuth2-OIDC\ImageGallery.Authorization\bin\Debug\net6.0\ImageGallery.Authorization.deps.json
+D:\OAuth2-OIDC\ImageGallery.Authorization\bin\Debug\net6.0\ImageGallery.Authorization.dll
+D:\OAuth2-OIDC\ImageGallery.Authorization\bin\Debug\net6.0\ImageGallery.Authorization.pdb
+D:\OAuth2-OIDC\ImageGallery.Authorization\obj\Debug\net6.0\ImageGallery.Authorization.csproj.AssemblyReference.cache
+D:\OAuth2-OIDC\ImageGallery.Authorization\obj\Debug\net6.0\ImageGallery.Authorization.GeneratedMSBuildEditorConfig.editorconfig
+D:\OAuth2-OIDC\ImageGallery.Authorization\obj\Debug\net6.0\ImageGallery.Authorization.AssemblyInfoInputs.cache
+D:\OAuth2-OIDC\ImageGallery.Authorization\obj\Debug\net6.0\ImageGallery.Authorization.AssemblyInfo.cs
+D:\OAuth2-OIDC\ImageGallery.Authorization\obj\Debug\net6.0\ImageGallery.Authorization.csproj.CoreCompileInputs.cache
+D:\OAuth2-OIDC\ImageGallery.Authorization\obj\Debug\net6.0\ImageGallery.Authorization.dll
+D:\OAuth2-OIDC\ImageGallery.Authorization\obj\Debug\net6.0\refint\ImageGallery.Authorization.dll
+D:\OAuth2-OIDC\ImageGallery.Authorization\obj\Debug\net6.0\ImageGallery.Authorization.pdb
+D:\OAuth2-OIDC\ImageGallery.Authorization\obj\Debug\net6.0\ref\ImageGallery.Authorization.dll

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "tdOhs6IFTOSAdB8b19Z9tCn36uVcZS6kPZGxZmqM/fo4RC+aWpORNy6igMarMcOajtPpLBvA2zXndVXWO4R8kQ==",
+  "success": true,
+  "projectFilePath": "D:\\OAuth2-OIDC\\ImageGallery.Authorization\\ImageGallery.Authorization.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.16\\microsoft.aspnetcore.authorization.6.0.16.nupkg.sha512",
+    "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.16\\microsoft.aspnetcore.metadata.6.0.16.nupkg.sha512",
+    "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.3\\microsoft.extensions.logging.abstractions.6.0.3.nupkg.sha512",
+    "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
