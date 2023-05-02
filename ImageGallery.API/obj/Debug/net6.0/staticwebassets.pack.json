@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\Images\\4cdd494c-e6e1-4af1-9e54-24a8e80ea2b4.JPG"
     },
     {
+      "Id": "D:\\OAuth2-OIDC\\ImageGallery.API\\wwwroot\\Images\\4deb39ad-5848-42d1-a165-9db510a1f599.jpg",
+      "PackagePath": "staticwebassets\\Images\\4deb39ad-5848-42d1-a165-9db510a1f599.jpg"
+    },
+    {
       "Id": "D:\\OAuth2-OIDC\\ImageGallery.API\\wwwroot\\Images\\5c20ca95-bb00-4ef1-8b85-c4b11e66eb54.JPG",
       "PackagePath": "staticwebassets\\Images\\5c20ca95-bb00-4ef1-8b85-c4b11e66eb54.JPG"
     },
@@ -59,6 +63,10 @@
     {
       "Id": "D:\\OAuth2-OIDC\\ImageGallery.API\\wwwroot\\Images\\e0e32179-109c-4a8a-bf91-3d65ff83ca29.jpg",
       "PackagePath": "staticwebassets\\Images\\e0e32179-109c-4a8a-bf91-3d65ff83ca29.jpg"
+    },
+    {
+      "Id": "D:\\OAuth2-OIDC\\ImageGallery.API\\wwwroot\\Images\\f568c68a-0c7f-447f-9574-66ca951e1acc.jpg",
+      "PackagePath": "staticwebassets\\Images\\f568c68a-0c7f-447f-9574-66ca951e1acc.jpg"
     },
     {
       "Id": "D:\\OAuth2-OIDC\\ImageGallery.API\\wwwroot\\Images\\fdfe7329-e05c-41fb-a7c7-4f3226d28c49.jpg",

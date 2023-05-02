@@ -64,3 +64,8 @@ D:\OAuth2-OIDC\ImageGallery.API\obj\Debug\net6.0\refint\ImageGallery.API.dll
 D:\OAuth2-OIDC\ImageGallery.API\obj\Debug\net6.0\ImageGallery.API.pdb
 D:\OAuth2-OIDC\ImageGallery.API\obj\Debug\net6.0\ImageGallery.API.genruntimeconfig.cache
 D:\OAuth2-OIDC\ImageGallery.API\obj\Debug\net6.0\ref\ImageGallery.API.dll
+D:\OAuth2-OIDC\ImageGallery.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+D:\OAuth2-OIDC\ImageGallery.API\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+D:\OAuth2-OIDC\ImageGallery.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\OAuth2-OIDC\ImageGallery.API\bin\Debug\net6.0\ImageGallery.Authorization.dll
+D:\OAuth2-OIDC\ImageGallery.API\bin\Debug\net6.0\ImageGallery.Authorization.pdb
