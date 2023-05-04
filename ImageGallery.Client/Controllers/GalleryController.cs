@@ -196,6 +196,8 @@ namespace ImageGallery.Client.Controllers
             var identityToken = await HttpContext.GetTokenAsync(OpenIdConnectParameterNames.IdToken);
 
             var accessToken = await HttpContext.GetTokenAsync(OpenIdConnectParameterNames.AccessToken);
+            
+            var refreshToken = await HttpContext.GetTokenAsync(OpenIdConnectParameterNames.RefreshToken);
 
             var userClaimsStringBuilder = new StringBuilder();
             foreach (var claim in User.Claims)
@@ -206,6 +208,8 @@ namespace ImageGallery.Client.Controllers
             _logger.LogInformation("Identity token & user claims: " + $"\n{identityToken} \n{userClaimsStringBuilder}");
 
             _logger.LogInformation("Access token: " + $"\n{accessToken}");
+            
+            _logger.LogInformation("Refresh token: " + $"\n{refreshToken}");
         }
 
         public static bool IsTokenValid(string token, string audience, string issuer, string signingKey)

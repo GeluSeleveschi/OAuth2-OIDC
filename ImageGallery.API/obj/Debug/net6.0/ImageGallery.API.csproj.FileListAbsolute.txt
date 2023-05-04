@@ -69,3 +69,5 @@ D:\OAuth2-OIDC\ImageGallery.API\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.d
 D:\OAuth2-OIDC\ImageGallery.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\OAuth2-OIDC\ImageGallery.API\bin\Debug\net6.0\ImageGallery.Authorization.dll
 D:\OAuth2-OIDC\ImageGallery.API\bin\Debug\net6.0\ImageGallery.Authorization.pdb
+D:\OAuth2-OIDC\ImageGallery.API\bin\Debug\net6.0\IdentityModel.dll
+D:\OAuth2-OIDC\ImageGallery.API\bin\Debug\net6.0\IdentityModel.AspNetCore.OAuth2Introspection.dll

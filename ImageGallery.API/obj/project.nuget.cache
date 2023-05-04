@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "jqrPmWkYggiOnPnmqYy1R7rviKW71GooZDI3h+t7iydoUjx0yjbSAAFyNEe8fPiC6aQIe9sYEr+Aae2HFIRCig==",
+  "dgSpecHash": "oMiKufGP8xU1NnJohNgUWoqkLCzIgeRaps2X0hmVj+wHvECNNNfQNF3wGySu+s99KE8/CZTiIf0/AWusvtPBgA==",
   "success": true,
   "projectFilePath": "D:\\OAuth2-OIDC\\ImageGallery.API\\ImageGallery.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\identitymodel.aspnetcore.oauth2introspection\\6.2.0\\identitymodel.aspnetcore.oauth2introspection.6.2.0.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.15\\microsoft.aspnetcore.authentication.jwtbearer.6.0.15.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.16\\microsoft.aspnetcore.authorization.6.0.16.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.16\\microsoft.aspnetcore.metadata.6.0.16.nupkg.sha512",
