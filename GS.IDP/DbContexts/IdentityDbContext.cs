@@ -1,4 +1,5 @@
-﻿using Marvin.IDP.Entities;
+﻿using GS.IDP.Entities;
+using Marvin.IDP.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Marvin.IDP.DbContexts
@@ -8,6 +9,8 @@ namespace Marvin.IDP.DbContexts
         public DbSet<User> Users { get; set; }
 
         public DbSet<UserClaim> UserClaims { get; set; }
+
+        public DbSet<UserLogin> UserLogins { get; set; }
 
         public IdentityDbContext(
           DbContextOptions<IdentityDbContext> options)

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6nIUNaJ/oc6JDIyoVeo3MYmypjj3y9M3OLBx8maKalyq0v7P/0Y0IwXdQsPuDwOUTWj0cW9DdZzyTGiSmroKEA==",
+  "dgSpecHash": "3ugmCnu7suSjL3v9zDuGBqXFSyTBwFZ5AFjub1x/DnsAkz1sg1QpQGXfjp1IFHe7vVUtEomZHAxKiDodp9izrQ==",
   "success": true,
   "projectFilePath": "D:\\OAuth2-OIDC\\GS.IDP\\GS.IDP.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\identitymodel.aspnetcore\\4.3.0\\identitymodel.aspnetcore.4.3.0.nupkg.sha512",
+    "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\6.0.16\\microsoft.aspnetcore.authentication.facebook.6.0.16.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\6.0.0\\microsoft.aspnetcore.authentication.openidconnect.6.0.0.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\6.0.0\\microsoft.aspnetcore.dataprotection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using GS.IDP.Entities;
+using System.ComponentModel.DataAnnotations;
 
 namespace Marvin.IDP.Entities
 {
@@ -22,7 +23,7 @@ namespace Marvin.IDP.Entities
 
         [MaxLength(200)]
         public string Email { get; set; }
-        
+
         [MaxLength(200)]
         public string SecurityCode { get; set; }
 
@@ -32,6 +33,8 @@ namespace Marvin.IDP.Entities
         public string ConcurrencyStamp { get; set; } = Guid.NewGuid().ToString();
 
         public ICollection<UserClaim> Claims { get; set; } = new List<UserClaim>();
+
+        public ICollection<UserLogin> Logins { get; set; } = new List<UserLogin>();
 
     }
 

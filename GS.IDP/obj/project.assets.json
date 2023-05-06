@@ -85,6 +85,22 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Microsoft.AspNetCore.Authentication.Facebook/6.0.16": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -1161,6 +1177,21 @@
         "lib/net6.0/IdentityModel.AspNetCore.xml",
         "lib/netcoreapp3.1/IdentityModel.AspNetCore.dll",
         "lib/netcoreapp3.1/IdentityModel.AspNetCore.xml"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/6.0.16": {
+      "sha512": "hNKadnleiCdt8Wv09CjH73hZvKzZ1yjSB72vYrKQ2L/LsJC+SB8Qlx6K3o5cnOqoBTRpIE1Dn4PqbJBY8bxKKQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.facebook/6.0.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.Facebook.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.Facebook.xml",
+        "microsoft.aspnetcore.authentication.facebook.6.0.16.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.facebook.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.0": {
@@ -2378,6 +2409,7 @@
     "net6.0": [
       "Duende.IdentityServer >= 6.2.3",
       "IdentityModel.AspNetCore >= 4.3.0",
+      "Microsoft.AspNetCore.Authentication.Facebook >= 6.0.16",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.16",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.16",
       "Serilog.AspNetCore >= 6.0.0"
@@ -2434,6 +2466,10 @@
           "IdentityModel.AspNetCore": {
             "target": "Package",
             "version": "[4.3.0, )"
+          },
+          "Microsoft.AspNetCore.Authentication.Facebook": {
+            "target": "Package",
+            "version": "[6.0.16, )"
           },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
