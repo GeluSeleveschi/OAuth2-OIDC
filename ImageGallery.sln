@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageGallery.Model", "Image
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GS.IDP", "GS.IDP\GS.IDP.csproj", "{2E4A22D8-2D7E-4721-9FC2-7AC640E2A8D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageGallery.Authorization", "ImageGallery.Authorization\ImageGallery.Authorization.csproj", "{A16F28D8-DC97-4043-828C-F17236F9E775}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageGallery.Authorization", "ImageGallery.Authorization\ImageGallery.Authorization.csproj", "{A16F28D8-DC97-4043-828C-F17236F9E775}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
