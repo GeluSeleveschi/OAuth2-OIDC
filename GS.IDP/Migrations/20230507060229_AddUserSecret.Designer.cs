@@ -3,6 +3,7 @@ using System;
 using Marvin.IDP.DbContexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GS.IDP.Migrations
 {
     [DbContext(typeof(IdentityDbContext))]
-    partial class IdentityDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230507060229_AddUserSecret")]
+    partial class AddUserSecret
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.16");
@@ -44,33 +46,6 @@ namespace GS.IDP.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("UserLogins");
-                });
-
-            modelBuilder.Entity("GS.IDP.Entities.UserSecret", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("ConcurrencyStamp")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Secret")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("UserSecrets");
                 });
 
             modelBuilder.Entity("Marvin.IDP.Entities.User", b =>
@@ -125,7 +100,7 @@ namespace GS.IDP.Migrations
                         {
                             Id = new Guid("13229d33-99e0-41b3-b18d-4f72127e3971"),
                             Active = true,
-                            ConcurrencyStamp = "9a92d5be-3ee9-46da-bafc-86046f32229a",
+                            ConcurrencyStamp = "0ac0c080-da6b-4e06-bd0c-f890af100fae",
                             Email = "david@someprovider.com",
                             Password = "password",
                             SecurityCodeExpirationDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -136,7 +111,7 @@ namespace GS.IDP.Migrations
                         {
                             Id = new Guid("96053525-f4a5-47ee-855e-0ea77fa6c55a"),
                             Active = true,
-                            ConcurrencyStamp = "14aa31e5-3427-44bf-94b8-0136dd1f2674",
+                            ConcurrencyStamp = "aee30eff-616c-4e93-af41-482f9cc66465",
                             Email = "ema@someprovider.com",
                             Password = "password",
                             SecurityCodeExpirationDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -177,64 +152,64 @@ namespace GS.IDP.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("33b9dcbe-fbd3-422b-966f-2c86aca887b5"),
-                            ConcurrencyStamp = "124e40f8-98f7-4043-94c9-b596145cef15",
+                            Id = new Guid("8d47919d-be5b-4e8b-9212-16a7e408ad32"),
+                            ConcurrencyStamp = "6e0ebfe1-ea2c-45aa-9c6a-67c167db0143",
                             Type = "given_name",
                             UserId = new Guid("13229d33-99e0-41b3-b18d-4f72127e3971"),
                             Value = "David"
                         },
                         new
                         {
-                            Id = new Guid("a923977f-1bf0-4ad3-ac35-8864aedc6760"),
-                            ConcurrencyStamp = "dcc024ac-c614-419b-8b12-c8ce0450b0ff",
+                            Id = new Guid("2e4caf04-a75c-4815-99e4-444ddab007a2"),
+                            ConcurrencyStamp = "a2c13680-ee6b-4310-b315-8a06985752b2",
                             Type = "family_name",
                             UserId = new Guid("13229d33-99e0-41b3-b18d-4f72127e3971"),
                             Value = "Flagg"
                         },
                         new
                         {
-                            Id = new Guid("850c3314-fe68-4d94-9deb-8c50cf261636"),
-                            ConcurrencyStamp = "7fd9a3de-223a-4f5a-9b10-5dfc6e06549b",
+                            Id = new Guid("0f21fed7-997f-46c9-951c-e33534ad8322"),
+                            ConcurrencyStamp = "b8d046e6-2071-4927-9aae-55a129ce3466",
                             Type = "country",
                             UserId = new Guid("13229d33-99e0-41b3-b18d-4f72127e3971"),
                             Value = "nl"
                         },
                         new
                         {
-                            Id = new Guid("a3ab214f-6ed3-48bd-8d4d-c4414d6da9d2"),
-                            ConcurrencyStamp = "f3ccfa0a-f688-4a25-bbb9-9e19ca400c9c",
+                            Id = new Guid("31044339-c25f-4d01-bacd-93ea196f19f3"),
+                            ConcurrencyStamp = "4977a00a-3724-43ed-8835-38c7bb3348c9",
                             Type = "role",
                             UserId = new Guid("13229d33-99e0-41b3-b18d-4f72127e3971"),
                             Value = "FreeUser"
                         },
                         new
                         {
-                            Id = new Guid("859f7915-250f-4fac-bf6e-278f9006d698"),
-                            ConcurrencyStamp = "38cee767-c397-48c8-ac8f-1961e48aeadd",
+                            Id = new Guid("2c1cd1ff-2f13-42d0-89cb-e8cd900caf61"),
+                            ConcurrencyStamp = "710f9c2b-9c47-48be-95f2-13230423422f",
                             Type = "given_name",
                             UserId = new Guid("96053525-f4a5-47ee-855e-0ea77fa6c55a"),
                             Value = "Emma"
                         },
                         new
                         {
-                            Id = new Guid("9ff85eea-aa32-4f8c-9dae-688070ac92ef"),
-                            ConcurrencyStamp = "363c1634-2a89-47e8-b7a4-a5d5ea54afdf",
+                            Id = new Guid("0ed20baa-c792-4331-85b2-60013ac4da5e"),
+                            ConcurrencyStamp = "8ae71167-24a7-4bfb-9248-fe2675628051",
                             Type = "family_name",
                             UserId = new Guid("96053525-f4a5-47ee-855e-0ea77fa6c55a"),
                             Value = "Flagg"
                         },
                         new
                         {
-                            Id = new Guid("d18c4c3d-b03d-4ff1-a4b5-542278bc0f03"),
-                            ConcurrencyStamp = "71b957b4-9735-4c48-8e28-3f13beba0384",
+                            Id = new Guid("a2322016-625a-462c-8a3b-d0e62fb83118"),
+                            ConcurrencyStamp = "7a391b8e-39d4-46ad-a9d2-6123201f27f7",
                             Type = "country",
                             UserId = new Guid("96053525-f4a5-47ee-855e-0ea77fa6c55a"),
                             Value = "be"
                         },
                         new
                         {
-                            Id = new Guid("e0e32bf5-215d-4a14-a0bf-ea067418c13e"),
-                            ConcurrencyStamp = "e6e6dfb0-2210-4eb2-975b-f5cc76fd5ee1",
+                            Id = new Guid("35bac0ef-055a-4ac1-b7eb-736f65b58ad7"),
+                            ConcurrencyStamp = "22beb7fe-e684-49b6-b2f2-29dedea99ef9",
                             Type = "role",
                             UserId = new Guid("96053525-f4a5-47ee-855e-0ea77fa6c55a"),
                             Value = "PayingUser"
@@ -245,17 +220,6 @@ namespace GS.IDP.Migrations
                 {
                     b.HasOne("Marvin.IDP.Entities.User", "User")
                         .WithMany("Logins")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("GS.IDP.Entities.UserSecret", b =>
-                {
-                    b.HasOne("Marvin.IDP.Entities.User", "User")
-                        .WithMany("Secrets")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -279,8 +243,6 @@ namespace GS.IDP.Migrations
                     b.Navigation("Claims");
 
                     b.Navigation("Logins");
-
-                    b.Navigation("Secrets");
                 });
 #pragma warning restore 612, 618
         }

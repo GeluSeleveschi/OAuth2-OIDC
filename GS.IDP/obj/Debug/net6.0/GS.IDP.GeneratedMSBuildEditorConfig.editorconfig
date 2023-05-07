@@ -92,6 +92,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/OAuth2-OIDC/GS.IDP/Pages/MFARegistration/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTUZBUmVnaXN0cmF0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/OAuth2-OIDC/GS.IDP/Pages/Redirect/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVkaXJlY3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

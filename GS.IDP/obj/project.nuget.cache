@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3ugmCnu7suSjL3v9zDuGBqXFSyTBwFZ5AFjub1x/DnsAkz1sg1QpQGXfjp1IFHe7vVUtEomZHAxKiDodp9izrQ==",
+  "dgSpecHash": "lbTeVBrjQJxvNbPPIOM4aoUZ0JPpcQdhATZJfivxWnNqp9hUThhl7EvoRz90qaH7eb/Rc6JpGan5z3Q861cgxg==",
   "success": true,
   "projectFilePath": "D:\\OAuth2-OIDC\\GS.IDP\\GS.IDP.csproj",
   "expectedPackageFiles": [
@@ -63,7 +63,8 @@
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gelu Seleveschi\\.nuget\\packages\\twostepsauthenticator\\1.4.1\\twostepsauthenticator.1.4.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -21,6 +21,16 @@ public class Callback : PageModel
     private readonly IEventService _events;
     private readonly ILocalUserService _localUserService;
 
+    private readonly Dictionary<string, string> _facebookClaimTypeMap = new()
+        {
+            { "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname",
+            JwtClaimTypes.GivenName},
+            { "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname",
+            JwtClaimTypes.FamilyName},
+            { "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress",
+            JwtClaimTypes.Email}
+        };
+
     public Callback(
         IIdentityServerInteractionService interaction,
         IEventService events,
@@ -62,14 +72,42 @@ public class Callback : PageModel
         var providerUserId = userIdClaim.Value;
 
         var user = await _localUserService.FindUserByExternalProviderAsync(provider, providerUserId);
-
         if (user == null)
         {
             var claims = externalUser.Claims.ToList();
             claims.Remove(userIdClaim);
 
-            user = _localUserService.AutoProvisionUser(provider, providerUserId, claims.ToList());
-            await _localUserService.SaveChangesAsync();
+            if (provider == "AAD")
+            {
+                var emailFromAzureAD = externalUser.Claims.FirstOrDefault(c => c.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress")?.Value;
+                if (emailFromAzureAD != null)
+                {
+                    user = await _localUserService.GetUserByEmailAsync(emailFromAzureAD);
+                    if (user != null)
+                    {
+                        await _localUserService.AddExternalProviderToUser(user.Subject, provider, providerUserId);
+                        await _localUserService.SaveChangesAsync();
+                    }
+                }
+            }
+            else if (provider == "Facebook")
+            {
+                var mappedClaims = new List<Claim>();
+
+                foreach (var claim in claims)
+                {
+                    if (_facebookClaimTypeMap.ContainsKey(claim.Type))
+                    {
+                        mappedClaims.Add(new Claim(_facebookClaimTypeMap[claim.Type], claim.Value));
+                    }
+                }
+
+                mappedClaims.Add(new Claim("role", "FreeUser"));
+                mappedClaims.Add(new Claim("country", "be"));
+
+                user = _localUserService.AutoProvisionUser(provider, providerUserId, mappedClaims.ToList());
+                await _localUserService.SaveChangesAsync();
+            }
         }
 
         //// find external user

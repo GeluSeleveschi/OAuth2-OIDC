@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/wysWBbXt6ZPOR98yQR21AQQwvZ9QMqBnbfAErTBKAc=",
+  "Hash": "EnkjQqMoCGLW0ijfvN+c86DE1h3OrzlFtzkCq8wOExU=",
   "Source": "GS.IDP",
   "BasePath": "_content/GS.IDP",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\OAuth2-OIDC\\GS.IDP\\wwwroot\\js\\qrcode.min.js",
+      "SourceId": "GS.IDP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\OAuth2-OIDC\\GS.IDP\\wwwroot\\",
+      "BasePath": "_content/GS.IDP",
+      "RelativePath": "js/qrcode.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\qrcode.min.js"
+    },
+    {
+      "Identity": "D:\\OAuth2-OIDC\\GS.IDP\\wwwroot\\js\\qrcodehelper.js",
+      "SourceId": "GS.IDP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\OAuth2-OIDC\\GS.IDP\\wwwroot\\",
+      "BasePath": "_content/GS.IDP",
+      "RelativePath": "js/qrcodehelper.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\qrcodehelper.js"
     },
     {
       "Identity": "D:\\OAuth2-OIDC\\GS.IDP\\wwwroot\\js\\signin-redirect.js",
